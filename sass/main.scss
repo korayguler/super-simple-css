@@ -1,0 +1,16 @@
+//main.scss
+
+//BASE
+@import 'base/normalize';
+@import 'base/reset';
+
+//UTILS
+@import 'utils/variables';
+@import 'utils/functions';
+@import 'utils/mixins';
+
+//COMPONENTS
+@import 'components/form';
+
+//THEMES
+@import 'themes/theme';

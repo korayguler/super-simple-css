@@ -1,0 +1,33 @@
+//form components
+button {
+  background: $light;
+  outline: none;
+  border: 0;
+  border-radius: $border-radius;
+  width: 100%;
+  max-width: 100px;
+  height: $form-height;
+  box-shadow: 2px 2px 8px rgba($dark, 0.2);
+  cursor: pointer;
+  transition: $transition;
+  border: 1px solid rgba($dark, 0.4);
+  &:hover {
+    background: $dark;
+    color: $light;
+    box-shadow: 2px 2px 8px rgba($light, 0.2);
+  }
+}
+
+input[type='text'],
+input[type='email'],
+input[type='password'] {
+  color: $dark;
+  background: $light;
+  border: 1px solid rgba($dark, 0.2);
+  box-shadow: 2px 2px 8px rgba($dark, 0.2);
+  border-radius: $border-radius;
+  outline: 0;
+  padding-left: 10px;
+  max-width: 200px;
+  height: $form-height;
+}

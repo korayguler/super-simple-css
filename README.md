@@ -1,2 +1,3 @@
 # super-simple-css
-minimal css library
+
+minimal-css-lib
